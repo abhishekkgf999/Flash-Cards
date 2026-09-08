@@ -12,7 +12,11 @@ Flash Cards is a simple learning tool for improve revision and memory recall. Ea
 
 - Simple navigation to cycle through the flashcards
 
+# Contributing
+
+Look at the [CONTRIBUTING.md](/CONTRIBUTING.md)
+
 # Tech Stack
 
 - React
-- Tailwind CSS
+- CSS
