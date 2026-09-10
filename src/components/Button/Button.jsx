@@ -1,9 +1,10 @@
 import React from 'react'
+import './Button.css'
 
-const Button = () => {
+const Button = ({label}) => {
   return (
     <div>
-      <button>This is a button</button>
+      <button className='flashcard-button'>{label}</button>
     </div>
   )
 }
