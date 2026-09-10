@@ -1,0 +1,18 @@
+.flashcard-button{
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.flashcard-button:hover{
+    font-weight: 700;
+}
+
+.flashcard-button:active{
+    transform: scale(1.08);
+    box-shadow: 0 0 10px 3px rgba(0, 120, 255, 0.6);
+}

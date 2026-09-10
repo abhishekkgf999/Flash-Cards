@@ -9,9 +9,9 @@ const Card = () => {
             <p>This contains question and answer</p>
         </div>
         <div className='button'>
-            <Button/>
-            <Button/>
-            <Button/>
+            <Button label = "< Prev"/>
+            <Button label = "Show Answer"/>
+            <Button label = "Next >"/>
         </div>
     </div>
   )
