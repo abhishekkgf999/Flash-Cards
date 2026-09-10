@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#root {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.flash-card {
+    width: 50vw;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.question-answer {
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
