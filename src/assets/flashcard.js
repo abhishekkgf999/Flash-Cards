@@ -50,3 +50,5 @@ const flashcards = [
         answer: "map returns a new array containing the transformed elements, while forEach only executes a callback for each element and does not return a new array."
     }
 ];
+
+export default flashcards;
