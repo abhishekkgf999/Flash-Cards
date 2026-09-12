@@ -1,6 +1,6 @@
 import Button from '../Button/Button'
 import './Card.css'
-import flashcards from '../../assets/flashcard'
+import flashcards from '../../assets/data/flashcard'
 import { useState } from "react";
 
 const Card = () => {
