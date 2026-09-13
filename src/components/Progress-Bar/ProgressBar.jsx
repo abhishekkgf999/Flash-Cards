@@ -6,8 +6,9 @@ const ProgressBar = ({ currentIndex, totalQuestion }) => {
   return (
     <div className="progress-bar">
       <div className="side-bar">
-        <span className="bar" style={{ width: `${percentage}%` }}></span>
-        <span className="percentage">{percentage}%</span>
+        <span className="bar" style={{ width: `${percentage}%` }}>
+          <span className="percentage">{percentage}%</span>
+        </span>
       </div>
       <div className="total-questions">
         {currentQuestion} of {totalQuestion}
