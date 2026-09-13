@@ -2,32 +2,30 @@
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
-    border-radius: 15px;
-    height: 30px;
-    padding: 6px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5px 10px;
+    height: 4vh;
 }
 
 .side-bar{
+    position: relative;
     display: flex;
-    width: 85%;
-    justify-content: space-between;
+    width: 80%;
+    gap: 10px;
 }
 
 .bar{
-    flex-grow: 1;
+    background-image: linear-gradient(to right, lightgreen, green);
+    border: none;
     border-radius: 10px;
-    background-image: linear-gradient(to left, green, #adcdad);
-    max-width: 91%;
 }
 
 .percentage{
     align-self: center;
-    font-size: x-large;
-    font-weight: 700;
 }
 
 .total-questions{
     align-self: center;
-    font-size: x-large;
-    font-weight: 700;
 }

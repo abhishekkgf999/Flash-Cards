@@ -25,6 +25,8 @@ body {
     border-radius: 8px;
     text-align: center;
     background-color: #f5f5f5;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .button {
