@@ -1,17 +1,20 @@
 import './ProgressBar.css'
 
-const ProgressBar = () => {
+const ProgressBar = ({ currentIndex, totalQuestion }) => {
+  const currentQuestion = currentIndex + 1;
+  const percentage = Math.round((currentQuestion / totalQuestion) * 100);
   return (
-    <div className='progress-bar'>
-        <div className='side-bar'> 
-            <span className='bar'></span>
-            <span className='percentage'>100%</span>
-        </div>
-        <div className='total-questions'>
-            5 of 20
-        </div>
+    <div className="progress-bar">
+      <div className="side-bar">
+        <span className="bar" style={{ width: `${percentage}%` }}>
+          <span className="percentage">{percentage}%</span>
+        </span>
+      </div>
+      <div className="total-questions">
+        {currentQuestion} of {totalQuestion}
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default ProgressBar
